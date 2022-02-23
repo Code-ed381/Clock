@@ -1,0 +1,58 @@
+body {
+    background-image: url(image.jpg);
+}
+.hour {
+    padding: 5px;
+    font-size: 18px;
+}
+.format-btn {
+    margin-top: 10px;
+}
+@media screen and (max-width: 676px) {
+    .clock-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .time-container {
+        padding: 20px;
+        width: 100%;
+    }
+    .inline {
+        font-size: 70px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin-bottom: 10px;
+        padding: 20px;
+        background-color: rgb(255, 255, 255);
+        display: inline;
+        mix-blend-mode: screen;
+        border-radius: 8px;
+        box-shadow: 0 10px 25px rgba(92, 99, 105, .2);;
+    }
+}
+@media screen and (min-width: 676px) {  
+    .clock-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .time-container {
+        padding: 20px;
+        width: 100%;
+    }
+    .inline {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 200px ;
+        padding: 20px;
+        background-color: rgb(255, 255, 255);
+        display: inline;
+        mix-blend-mode: screen;
+        border-radius: 8px;
+        box-shadow: 0px 10px 25px rgba(255, 255, 255, 0.274);
+    }
+}
+.show {
+    display: none;
+}
